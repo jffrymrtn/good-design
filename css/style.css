@@ -1,9 +1,8 @@
-body,
-html {
+body, html {
   background-color: #e0e0e0;
   color: #515151;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-family: 'Helvetica Neue', 'Roboto', sans-serif;
+  font-weight: 100;
 }
 
 .autoscroll > * {
@@ -39,8 +38,8 @@ a:hover {
 /* Initial page load */
 .page-1 {
   -webkit-transition: opacity 1000ms ease-in-out;
-  -moz-transition:    opacity 1000ms ease-in-out;
-  -ms-transition:     opacity 1000ms ease-in-out;
-  -o-transition:      opacity 1000ms ease-in-out;
-  transition:         opacity 1000ms ease-in-out;
+  -moz-transition: opacity 1000ms ease-in-out;
+  -ms-transition: opacity 1000ms ease-in-out;
+  -o-transition: opacity 1000ms ease-in-out;
+  transition: opacity 1000ms ease-in-out;
 }
